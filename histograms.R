@@ -10,4 +10,4 @@ ggplot(df,aes(x=Murder,fill=Red))+
 
 histpop<- 
 ggplot(df,aes(x=population,fill=Red))+
-  geom_histogram(bins=20,color= "blue",fill="white",bins=20)
+  geom_histogram(bin=20,color= "blue",fill="white",bins=20)

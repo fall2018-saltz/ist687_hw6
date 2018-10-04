@@ -8,6 +8,9 @@ histpop <-hist(df$population,  main = "Histogram of State Populations",
     breaks=20 )
 
 histMurderRate <-
+ggplot(df,aes(x=Murder,fill=Red))+
+  geom_histogram(bins=5,color= "blue",fill="white",bins=20)
+
 histpop<- 
 ggplot(df,aes(x=population,fill=Red))+
   geom_histogram(bins=5,color= "blue",fill="white",bins=20)

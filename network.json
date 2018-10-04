@@ -53,12 +53,6 @@
             "name": "cleanCensus.csv"
         },
         {
-            "assigned_to": "amgadge",
-            "desc": "",
-            "name": "MergeUSarrestsCencus.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "final_data.csv"
         },
         {
@@ -66,8 +60,14 @@
             "desc": "",
             "name": "clean.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "amgadge",
+            "desc": "",
+            "name": "MergeUSarrestsCencus.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-04 15:55:06",
+    "updated_at": "2018-10-04 15:58:51",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

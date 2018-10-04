@@ -58,16 +58,16 @@
         {
             "assigned_to": "amgadge",
             "desc": "",
-            "name": "MergeUSarrestsCencus.R",
-            "task_status": "completed"
+            "name": "clean.R",
+            "task_status": "validating"
         },
         {
             "assigned_to": "amgadge",
             "desc": "",
-            "name": "clean.R",
+            "name": "MergeUSarrestsCencus.R",
             "task_status": "validating"
         }
     ],
-    "updated_at": "2018-10-04 15:58:57",
+    "updated_at": "2018-10-04 15:59:02",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

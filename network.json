@@ -73,8 +73,11 @@
         {
             "desc": "",
             "name": "histograms.R"
+        },
+        {
+            "name": "histMurderRate.png"
         }
     ],
-    "updated_at": "2018-10-04 16:00:10",
+    "updated_at": "2018-10-04 16:00:35",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

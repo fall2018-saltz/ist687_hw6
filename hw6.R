@@ -4,3 +4,5 @@ dfStates <- read.csv(file="scprc-est2017-18+pop-res.csv", stringsAsFactors= FALS
 dfStates<- dfStates[c(-1,-53),-1:-4]
 colnames(dfStates)<-c("stateName","population","popOver18","percentOver18")
 return(dfStates)
+
+census

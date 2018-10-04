@@ -43,6 +43,16 @@
             ],
             "source": "MergeUSarrestsCencus.R",
             "target": "final_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histpop",
+                    "type": "png"
+                }
+            ],
+            "source": "histograms.R",
+            "target": "histpop.png"
         }
     ],
     "nodes": [
@@ -78,6 +88,6 @@
             "name": "histMurderRate.png"
         }
     ],
-    "updated_at": "2018-10-04 16:00:35",
+    "updated_at": "2018-10-04 16:01:00",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

@@ -1,4 +1,6 @@
 
+#install.packages("ggplot2")
+library("ggplot2")
 df <- final_data
 
 histpop <-hist(df$population,  main = "Histogram of State Populations",

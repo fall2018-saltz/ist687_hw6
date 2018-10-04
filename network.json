@@ -22,7 +22,7 @@
                 }
             ],
             "source": "clean.R",
-            "target": "cleanCensus.csv"
+            "target": "clean_data.csv"
         }
     ],
     "nodes": [
@@ -35,7 +35,7 @@
             "task_status": "in progress"
         },
         {
-            "name": "cleanCensus.csv"
+            "name": "clean_data.csv"
         },
         {
             "assigned_to": "amgadge",
@@ -44,6 +44,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 15:27:27",
+    "updated_at": "2018-10-04 15:28:23",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

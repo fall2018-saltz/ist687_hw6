@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "cleanCensus.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleanCensus.csv",
+            "target": "MergeUSarrestsCencus.R"
         }
     ],
     "nodes": [
@@ -44,6 +54,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 15:36:18",
+    "updated_at": "2018-10-04 15:38:41",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

@@ -40,10 +40,10 @@
         {
             "assigned_to": "amgadge",
             "desc": "",
-            "name": "USarrests.R",
+            "name": "MergeUSarrestsCencus.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 15:35:10",
+    "updated_at": "2018-10-04 15:36:18",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

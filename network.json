@@ -53,6 +53,16 @@
             ],
             "source": "histograms.R",
             "target": "histpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histMurderRate",
+                    "type": "png"
+                }
+            ],
+            "source": "histograms.R",
+            "target": "histMurderRate.png"
         }
     ],
     "nodes": [
@@ -88,6 +98,6 @@
             "name": "histMurderRate.png"
         }
     ],
-    "updated_at": "2018-10-04 16:01:00",
+    "updated_at": "2018-10-04 16:01:18",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

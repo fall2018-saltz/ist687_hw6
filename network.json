@@ -22,7 +22,57 @@
                 }
             ],
             "source": "clean.R",
-            "target": "data.csv"
+            "target": "cleanCensus.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleanCensus.csv",
+            "target": "MergeUSarrestsCencus.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "final_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "MergeUSarrestsCencus.R",
+            "target": "final_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histpop",
+                    "type": "png"
+                }
+            ],
+            "source": "histograms.R",
+            "target": "histpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histMurderRate",
+                    "type": "png"
+                }
+            ],
+            "source": "histograms.R",
+            "target": "histMurderRate.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "final_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "final_data.csv",
+            "target": "histograms.R"
         }
     ],
     "nodes": [
@@ -30,20 +80,34 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "amgadge",
-            "name": "clean.R",
-            "task_status": "in progress"
+            "name": "cleanCensus.csv"
         },
         {
-            "name": "data.csv"
+            "name": "final_data.csv"
         },
         {
             "assigned_to": "amgadge",
             "desc": "",
-            "name": "hw6.R",
-            "task_status": "in progress"
+            "name": "clean.R",
+            "task_status": "validating"
+        },
+        {
+            "assigned_to": "amgadge",
+            "desc": "",
+            "name": "MergeUSarrestsCencus.R",
+            "task_status": "validating"
+        },
+        {
+            "name": "histpop.png"
+        },
+        {
+            "desc": "",
+            "name": "histograms.R"
+        },
+        {
+            "name": "histMurderRate.png"
         }
     ],
-    "updated_at": "2018-10-04 15:24:53",
+    "updated_at": "2018-10-04 16:01:31",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

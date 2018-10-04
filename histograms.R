@@ -3,9 +3,6 @@
 library("ggplot2")
 df <- final_data
 
-histpop <-hist(df$population,  main = "Histogram of State Populations",
-    xlab = "Population" , ylab="Frequency",col = 'orange',border = 'red',density = 100,
-    breaks=20 )
 
 histMurderRate <-
 ggplot(df,aes(x=Murder,fill=Red))+

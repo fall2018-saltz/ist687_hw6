@@ -69,8 +69,12 @@
         },
         {
             "name": "histpop.png"
+        },
+        {
+            "desc": "",
+            "name": "histograms.R"
         }
     ],
-    "updated_at": "2018-10-04 15:59:34",
+    "updated_at": "2018-10-04 16:00:10",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

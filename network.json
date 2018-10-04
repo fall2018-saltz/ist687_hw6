@@ -52,8 +52,11 @@
             "desc": "",
             "name": "MergeUSarrestsCencus.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "final_data.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:38:41",
+    "updated_at": "2018-10-04 15:54:08",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

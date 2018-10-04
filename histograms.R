@@ -12,4 +12,4 @@ histMurderRate <-hist(df$Murder,  main = "Histogram of State Populations",
     breaks=20 )
 
 ggplot(df,aes(x=Population))+
-    geom_hist()
+    geom_histogram()

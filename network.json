@@ -73,6 +73,16 @@
             ],
             "source": "final_data.csv",
             "target": "histograms.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "final_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "final_data.csv",
+            "target": "boxplots.R"
         }
     ],
     "nodes": [
@@ -114,6 +124,6 @@
             "name": "boxplots.R"
         }
     ],
-    "updated_at": "2018-10-06 23:57:05",
+    "updated_at": "2018-10-06 23:57:45",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

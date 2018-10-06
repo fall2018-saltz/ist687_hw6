@@ -101,13 +101,19 @@
             "name": "histpop.png"
         },
         {
+            "assigned_to": "amgadge",
             "desc": "",
-            "name": "histograms.R"
+            "name": "histograms.R",
+            "task_status": "in progress"
         },
         {
             "name": "histMurderRate.png"
+        },
+        {
+            "desc": "",
+            "name": "boxplots.R"
         }
     ],
-    "updated_at": "2018-10-04 16:01:31",
+    "updated_at": "2018-10-06 23:57:05",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

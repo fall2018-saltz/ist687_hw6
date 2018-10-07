@@ -133,6 +133,16 @@
             ],
             "source": "MaxMurder.R",
             "target": "barNumMurder2.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "final_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "final_data.csv",
+            "target": "dplyrtest.R"
         }
     ],
     "nodes": [
@@ -198,6 +208,6 @@
             "name": "dplyrtest.R"
         }
     ],
-    "updated_at": "2018-10-07 01:32:30",
+    "updated_at": "2018-10-07 01:32:40",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

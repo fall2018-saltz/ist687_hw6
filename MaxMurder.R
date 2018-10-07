@@ -5,7 +5,6 @@ library(ggplot2)
 df<- final_data
 
 df$NumMurder = as.integer(df$Murder*df$population/100000)
-str(df)
 
 #barchart 
 barNumMurder<-ggplot(df,aes(x=stateName,y=NumMurder))+

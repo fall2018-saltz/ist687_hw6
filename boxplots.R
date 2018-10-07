@@ -10,4 +10,5 @@ ggplot(df,aes(x=stateName,y=Murder))+
 
 boxpop<- 
 ggplot(df,aes(x=stateName,y=population))+
-  geom_boxplot(color= "blue",fill="white")
+  geom_boxplot(color= "blue",fill="white")+
+  ggtitle("boxpop")

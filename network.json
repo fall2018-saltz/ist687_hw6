@@ -179,8 +179,11 @@
             "desc": "",
             "name": "MaxMurder.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "barNumMurder2.png"
         }
     ],
-    "updated_at": "2018-10-07 01:05:32",
+    "updated_at": "2018-10-07 01:05:51",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

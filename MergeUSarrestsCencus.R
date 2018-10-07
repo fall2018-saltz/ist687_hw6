@@ -1,4 +1,4 @@
 
 arrests <- USArrests
-final_data <-merge(clean_data,arrests)
+#final_data <-merge(clean_data,arrests,by=c(stateName,))
 str(final_data)

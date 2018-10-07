@@ -1,7 +1,7 @@
 
 #install.packages
 library(ggplot2)
-#library(dplyr)
+library(dplyr)
 df<- final_data
 
 df$NumMurder = as.integer(df$Murder*df$population/100000)

@@ -7,7 +7,7 @@ df<- final_data
 #str(df)
 df$NumMurder = as.integer(df$Murder*df$population/100000)
 str(df)
-df1<-df[order(NumMurder)]
+df1<-df[order(df$NumMurder)]
 str(df1)
 #barchart 
 barNumMurder1<-ggplot(df,aes(x=stateName,y=NumMurder))+

@@ -93,6 +93,16 @@
             ],
             "source": "boxplots.R",
             "target": "boxpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxMurderRate",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplots.R",
+            "target": "boxMurderRate.png"
         }
     ],
     "nodes": [
@@ -142,6 +152,6 @@
             "name": "boxMurderRate.png"
         }
     ],
-    "updated_at": "2018-10-07 00:00:53",
+    "updated_at": "2018-10-07 00:01:14",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

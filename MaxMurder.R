@@ -9,5 +9,5 @@ df$NumMurder = as.integer(df$Murder*df$population/100000)
 #barchart 
 barNumMurder<-ggplot(df,aes(x=stateName,y=NumMurder))+
     geom_col()+
-    theme(axis.text.x = element_text(angle = 90))+
+    #theme(axis.text.x = element_text(angle = 90))+
     ggtitle(“Total Murders”)

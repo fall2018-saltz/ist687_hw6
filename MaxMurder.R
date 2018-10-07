@@ -4,4 +4,4 @@ library(ggplot2)
 #library(dplyr)
 df<- final_data
 
-#df<- mutatetr(df)
+df$NumMurder = df$Murder*df$population/100000

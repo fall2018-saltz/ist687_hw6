@@ -1,9 +1,10 @@
 
 #install.packages
 library(ggplot2)
+
 library(dplyr)
 df<- final_data
-
+str(df)
 df$NumMurder = as.integer(df$Murder*df$population/100000)
 
 #barchart 

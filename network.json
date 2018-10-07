@@ -150,8 +150,12 @@
         },
         {
             "name": "boxMurderRate.png"
+        },
+        {
+            "desc": "",
+            "name": "MaxMurder.R"
         }
     ],
-    "updated_at": "2018-10-07 00:01:14",
+    "updated_at": "2018-10-07 00:20:09",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

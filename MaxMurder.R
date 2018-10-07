@@ -14,8 +14,8 @@ barNumMurder1<-ggplot(df,aes(x=stateName,y=NumMurder))+
     #ggtitle(“Total Murders”)
 
 df1<-arrange(df,barNumMurder2)
-str(df1)
-barNumMurder2<-ggplot(arrange(df,NumMurder),aes(x=Rape,y=NumMurder))+
+
+barNumMurder2<-ggplot(df1,aes(x=Rape,y=NumMurder))+
     geom_col()+
     theme(axis.text.x = element_text(angle = 90))#+
     #ggtitle(“Total Murders”)

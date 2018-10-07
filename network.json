@@ -172,15 +172,15 @@
             "name": "boxMurderRate.png"
         },
         {
+            "name": "barNumMurder.png"
+        },
+        {
             "assigned_to": "amgadge",
             "desc": "",
             "name": "MaxMurder.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "barNumMurder.png"
         }
     ],
-    "updated_at": "2018-10-07 00:36:13",
+    "updated_at": "2018-10-07 00:43:47",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

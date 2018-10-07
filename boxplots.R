@@ -5,9 +5,9 @@ df <- final_data
 
 
 boxMurderRate <-
-ggplot(df,aes(x=Murder))+
+ggplot(df,aes(x=stateName,y=Murder))+
   geom_boxplot(color= "blue",fill="white")
 
 boxpop<- 
-ggplot(df,aes(x=population))+
+ggplot(df,aes(x=stateName,y=population))+
   geom_boxplot(color= "blue",fill="white")

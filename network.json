@@ -208,8 +208,11 @@
             "desc": "",
             "name": "ScatterPlot.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "barNumMurder3.png"
         }
     ],
-    "updated_at": "2018-10-07 02:21:53",
+    "updated_at": "2018-10-07 02:22:20",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

@@ -11,4 +11,4 @@ ggplot(df,aes(x=Murder))+
 histpop<- 
 ggplot(df,aes(x=population))+
   geom_histogram(color= "blue",fill="white",bins=20)+
-  ggtitle("histpop")
+  #ggtitle("histpop")

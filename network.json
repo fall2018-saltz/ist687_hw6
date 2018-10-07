@@ -117,7 +117,7 @@
         {
             "ports": [
                 {
-                    "output": "barNumMurder",
+                    "output": "barNumMurder1",
                     "type": "png"
                 }
             ],
@@ -181,6 +181,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-07 00:43:47",
+    "updated_at": "2018-10-07 01:05:32",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

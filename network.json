@@ -83,6 +83,16 @@
             ],
             "source": "final_data.csv",
             "target": "boxplots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxpop",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplots.R",
+            "target": "boxpop.png"
         }
     ],
     "nodes": [
@@ -120,8 +130,10 @@
             "name": "histMurderRate.png"
         },
         {
+            "assigned_to": "amgadge",
             "desc": "",
-            "name": "boxplots.R"
+            "name": "boxplots.R",
+            "task_status": "in progress"
         },
         {
             "name": "boxpop.png"
@@ -130,6 +142,6 @@
             "name": "boxMurderRate.png"
         }
     ],
-    "updated_at": "2018-10-06 23:58:14",
+    "updated_at": "2018-10-07 00:00:53",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

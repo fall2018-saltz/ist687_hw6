@@ -1,3 +1,4 @@
 
 library(dplyr)
-df<- mutate(final_data,datas= 
+str(final_data)
+#df<- mutate(final_data,datas= 

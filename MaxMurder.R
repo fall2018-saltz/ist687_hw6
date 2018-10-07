@@ -9,3 +9,4 @@ str(df)
 
 #barchart 
 ggplot(df,aes(x=stateName,y=NumMurder))+
+    geom_col()

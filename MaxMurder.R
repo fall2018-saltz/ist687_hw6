@@ -4,4 +4,4 @@ library(ggplot2)
 df<- final_data
 
 df %>%
-    summarise(Number of Murder= Murder*population/100000)
+    summarise(Number_of_Murders= Murder*population/100000)

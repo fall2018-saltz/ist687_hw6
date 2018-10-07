@@ -8,3 +8,4 @@ df$NumMurder = as.integer(df$Murder*df$population/100000)
 str(df)
 
 #barchart 
+ggplot(df,aes(x=stateName,y=NumMurder))+

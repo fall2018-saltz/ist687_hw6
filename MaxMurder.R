@@ -5,7 +5,7 @@ library(ggplot2)
 library(dplyr)
 df<- final_data
 #str(df)
-df$NumMurder = as.integer(df$Murder*df$population/100000)
+df$NumMurder <- as.integer(df$Murder*df$population/100000)
 str(df)
 df1<-df[order(df$NumMurder)]
 str(df1)

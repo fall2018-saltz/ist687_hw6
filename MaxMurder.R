@@ -5,3 +5,4 @@ library(ggplot2)
 df<- final_data
 
 df$NumMurder = df$Murder*df$population/100000
+str(df)

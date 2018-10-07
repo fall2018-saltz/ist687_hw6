@@ -4,10 +4,10 @@ library("ggplot2")
 df <- final_data
 
 
-histMurderRate <-
+boxMurderRate <-
 ggplot(df,aes(x=Murder))+
   geom_boxplot(color= "blue",fill="white")
 
-histpop<- 
+boxpop<- 
 ggplot(df,aes(x=population))+
   geom_boxplot(color= "blue",fill="white")

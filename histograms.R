@@ -5,9 +5,10 @@ df <- final_data
 
 
 histMurderRate <-
-ggplot(df,aes(x=Murder,fill=Red))+
+ggplot(df,aes(x=Murder))+
   geom_histogram(color= "blue",fill="white",bins=20)
 
 histpop<- 
-ggplot(df,aes(x=population,fill=Red))+
-  geom_histogram(color= "blue",fill="white",bins=20)
+ggplot(df,aes(x=population))+
+  geom_histogram(color= "blue",fill="white",bins=20)+
+  #ggtitle("histpop")

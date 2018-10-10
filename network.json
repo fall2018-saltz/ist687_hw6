@@ -163,6 +163,16 @@
             ],
             "source": "ScatterPlot.R",
             "target": "scatplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histurbanpop",
+                    "type": "png"
+                }
+            ],
+            "source": "histograms.R",
+            "target": "histurbanpop.png"
         }
     ],
     "nodes": [
@@ -242,6 +252,6 @@
             "name": "histrape.png"
         }
     ],
-    "updated_at": "2018-10-10 17:40:09",
+    "updated_at": "2018-10-10 17:41:17",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

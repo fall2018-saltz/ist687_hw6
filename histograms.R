@@ -18,6 +18,6 @@ ggplot(df,aes(x=Assault))+
     geom_histogram(color='blue',fill='white',bins=20)
     
 histurbanpop <-
-ggplot(df,aes(x=UrbanPop)+
+ggplot(df,aes(x=UrbanPop))+
     geom_histogram(color='blue',fill='white',bins=20)
     

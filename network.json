@@ -153,6 +153,16 @@
             ],
             "source": "MaxMurder.R",
             "target": "barNumMurder3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatplot",
+                    "type": "png"
+                }
+            ],
+            "source": "ScatterPlot.R",
+            "target": "scatplot.png"
         }
     ],
     "nodes": [
@@ -226,6 +236,6 @@
             "name": "scatplot.png"
         }
     ],
-    "updated_at": "2018-10-10 17:23:39",
+    "updated_at": "2018-10-10 17:24:17",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

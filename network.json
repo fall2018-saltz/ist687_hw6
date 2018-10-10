@@ -153,6 +153,36 @@
             ],
             "source": "MaxMurder.R",
             "target": "barNumMurder3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatplot",
+                    "type": "png"
+                }
+            ],
+            "source": "ScatterPlot.R",
+            "target": "scatplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histurbanpop",
+                    "type": "png"
+                }
+            ],
+            "source": "histograms.R",
+            "target": "histurbanpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histrape",
+                    "type": "png"
+                }
+            ],
+            "source": "histograms.R",
+            "target": "histrape.png"
         }
     ],
     "nodes": [
@@ -221,8 +251,17 @@
         },
         {
             "name": "barNumMurder3.png"
+        },
+        {
+            "name": "scatplot.png"
+        },
+        {
+            "name": "histurbanpop.png"
+        },
+        {
+            "name": "histrape.png"
         }
     ],
-    "updated_at": "2018-10-07 02:22:33",
+    "updated_at": "2018-10-10 17:41:33",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

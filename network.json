@@ -173,6 +173,16 @@
             ],
             "source": "histograms.R",
             "target": "histurbanpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histrape",
+                    "type": "png"
+                }
+            ],
+            "source": "histograms.R",
+            "target": "histrape.png"
         }
     ],
     "nodes": [
@@ -252,6 +262,6 @@
             "name": "histrape.png"
         }
     ],
-    "updated_at": "2018-10-10 17:41:17",
+    "updated_at": "2018-10-10 17:41:33",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

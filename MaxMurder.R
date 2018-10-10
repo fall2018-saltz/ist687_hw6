@@ -16,7 +16,7 @@ barNumMurder1<-ggplot(df,aes(x=stateName,y=NumMurder))+
     #ggtitle(“Total Murders”)
 #df1<-df[order(df$NumMurder),]
 #head(df1)
-barNumMurder2<-ggplot(df,aes(x=reorder(stateName,NumMurder),y=NumMurder))+
+barNumMurder2<-ggplot(df,aes(x=reorder(stateName,Murder),y=NumMurder))+
     geom_col()+
     theme(axis.text.x = element_text(angle = 90))#+
     #ggtitle(“Total Murders”)

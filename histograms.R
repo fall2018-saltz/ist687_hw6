@@ -14,3 +14,4 @@ ggplot(df,aes(x=population))+
   #ggtitle("histpop")
 
 histrape <-
+ggplot(df,aes(x=rape))+

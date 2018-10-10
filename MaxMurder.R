@@ -22,7 +22,7 @@ barNumMurder2<-ggplot(df,aes(x=reorder(stateName,Murder),y=NumMurder))+
     #ggtitle(“Total Murders”)
     
 
-barNumMurder3<-ggplot(df,aes(x=stateName,y=NumMurder,fill=percentOver18))+
+barNumMurder3<-ggplot(df,aes(x=reorder(stateName,Murder),y=NumMurder,fill=percentOver18))+
     geom_col()+
     theme(axis.text.x = element_text(angle = 90))#+
     #ggtitle(“Total Murders”)

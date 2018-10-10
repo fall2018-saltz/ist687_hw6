@@ -234,8 +234,11 @@
         },
         {
             "name": "scatplot.png"
+        },
+        {
+            "name": "histurbpop.png"
         }
     ],
-    "updated_at": "2018-10-10 17:24:17",
+    "updated_at": "2018-10-10 17:39:37",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

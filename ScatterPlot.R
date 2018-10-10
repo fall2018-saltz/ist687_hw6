@@ -1,6 +1,6 @@
 
-library(dplyr)
-str(final_data)
-df<- mutate(final_data,dats=Assault*population/10000)
-head(df,10)
-final_data$population[9]
+df<-final_data
+library(ggplot2)
+
+scatplot <- ggplot(df,aes(x=population,y=percentOver18,size=Murder,col=Murder))+
+    geom_point()

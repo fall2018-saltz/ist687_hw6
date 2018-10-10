@@ -16,3 +16,5 @@ ggplot(df,aes(x=population))+
 histrape <-
 ggplot(df,aes(x=rape))+
     geom_histogram(color='blue',fill='white',bins=20)
+    
+histurbanpop <-    

@@ -5,6 +5,10 @@ library("ggplot2")
 df <- final_data
 
 #Histogram for population
+histpop<- 
+ggplot(df,aes(x=population))+
+    geom_histogram(color= "blue",fill="white",bins=20)
+ 
 histMurderRate <-
 ggplot(df,aes(x=Murder))+
     geom_histogram(color= "blue",fill="white",bins=20)

@@ -4,15 +4,11 @@
 library("ggplot2")
 df <- final_data
 
-
+#Histogram for population
 histMurderRate <-
 ggplot(df,aes(x=Murder))+
     geom_histogram(color= "blue",fill="white",bins=20)
 
-histpop<- 
-ggplot(df,aes(x=population))+
-    geom_histogram(color= "blue",fill="white",bins=20)
-  #ggtitle("histpop")
 
 histrape <-
 ggplot(df,aes(x=Assault))+

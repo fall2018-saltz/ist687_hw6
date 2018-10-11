@@ -28,3 +28,4 @@ ggplot(df,aes(x=UrbanPop))+
 #The second line, geom_histogram plots the histogram with colour of edge, fill and,
 #number of bins are specified along with it.
 #To make histogram right I adjusted the bin size of the histogram, also added colour end fill attribute
+

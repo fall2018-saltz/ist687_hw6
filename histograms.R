@@ -24,3 +24,4 @@ histurbanpop <-
 ggplot(df,aes(x=UrbanPop))+
     geom_histogram(color='blue',fill='white',bins=8)
     
+#ggplot function forms an object with dataframe and variables     

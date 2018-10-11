@@ -17,3 +17,4 @@ ggplot(df,aes(x=factor(0),y=population))+
 #geom_boxplot plots the box plot. 
 
 # histogram vs boxplot
+# According to me, Histogram was more powerful,it gives me freedom of selecting how the histogram will look 

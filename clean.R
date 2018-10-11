@@ -19,4 +19,5 @@ readStates<- function(states)
 }
 #calling function
 cleanCensus <- readStates(raw_data)
+#giving it to output variable
 clean_data <- cleanCensus

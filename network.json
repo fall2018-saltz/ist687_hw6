@@ -183,6 +183,16 @@
             ],
             "source": "histograms.R",
             "target": "histrape.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barNumMurder4",
+                    "type": "png"
+                }
+            ],
+            "source": "MaxMurder.R",
+            "target": "barNumMurder4.png"
         }
     ],
     "nodes": [
@@ -265,6 +275,6 @@
             "name": "barNumMurder4.png"
         }
     ],
-    "updated_at": "2018-10-11 03:37:47",
+    "updated_at": "2018-10-11 03:38:05",
     "url": "https://github.com/fall2018-saltz/ist687_hw6"
 }

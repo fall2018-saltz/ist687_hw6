@@ -3,7 +3,8 @@
 library(ggplot2)
 df<- final_data
 
-# calculating the number of murders per state by multiplying the murder rate per 100000 population into the actual population
+# calculating the number of murders per state by multiplying 
+#the murder rate per 100000 population into the actual population of the state and taking it as integer because murders should be in whole numbers.
 df$NumMurder <- as.integer(df$Murder*df$population/100000)
 
 #barchart 

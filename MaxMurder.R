@@ -17,12 +17,14 @@ barNumMurder2<-ggplot(df,aes(x=stateName,y=NumMurder))+
     geom_col()+
     theme(axis.text.x = element_text(angle = 90))+
     ggtitle('Total Murders')
+
 #using reorder function to change the order according to the murder    
 barNumMurder3<-ggplot(df,aes(x=reorder(stateName,Murder),y=NumMurder))+
     geom_col()+
     theme(axis.text.x = element_text(angle = 90))+
     ggtitle('Total Murders')
-#using
+
+#using fill attribute to add colours based on percentOver18
 barNumMurder4<-ggplot(df,aes(x=reorder(stateName,Murder),y=NumMurder,fill=percentOver18))+
     geom_col()+
     theme(axis.text.x = element_text(angle = 90))+

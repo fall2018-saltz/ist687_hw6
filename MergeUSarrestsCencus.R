@@ -1,7 +1,7 @@
 
 #copying USarrests data in a variable
 arrests <- USArrests
-#creating a row named stateName
+#creating a column named stateName
 arrests$stateName<-rownames(arrests)
 #Merging the data
 final_data <-merge(clean_data,arrests,by="stateName")

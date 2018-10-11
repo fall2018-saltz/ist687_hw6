@@ -1,5 +1,6 @@
 
 #function created in HW3 
+#reading and cleaning Census data
 readStates<- function(states)
 {
     
@@ -17,5 +18,4 @@ readStates<- function(states)
     
 }
 cleanCensus <- readStates(raw_data)
-str(cleanCensus)
 clean_data <- cleanCensus

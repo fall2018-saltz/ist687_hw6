@@ -10,7 +10,9 @@ df$NumMurder <- as.integer(df$Murder*df$population/100000)
 #barchart with the number of murders per state
 barNumMurder1<-ggplot(df,aes(x=stateName,y=NumMurder))+
     geom_col()
-#adding theme function to rotate text of x axis by 90 degree 
+    
+#adding theme function to rotate text of x axis by 90 degree
+#also adding ggtitle function for the title
 barNumMurder2<-ggplot(df,aes(x=stateName,y=NumMurder))+
     geom_col()    
     theme(axis.text.x = element_text(angle = 90))#+

@@ -13,4 +13,4 @@ boxpop<-
 ggplot(df,aes(x=factor(0),y=population))+
   geom_boxplot(color= "blue",fill="white")
 
-#ggplot creates the object here x variable is set to 0
+#ggplot creates the object here x variable is set to 0 as it is required

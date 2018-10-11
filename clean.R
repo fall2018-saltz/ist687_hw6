@@ -1,4 +1,6 @@
 
+#function created in HW3 
+#reading and cleaning Census data
 readStates<- function(states)
 {
     
@@ -15,6 +17,7 @@ readStates<- function(states)
 
     
 }
+#calling function
 cleanCensus <- readStates(raw_data)
-str(cleanCensus)
+#giving it to output variable
 clean_data <- cleanCensus

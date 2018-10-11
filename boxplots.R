@@ -18,4 +18,4 @@ ggplot(df,aes(x=factor(0),y=population))+
 
 # histogram vs boxplot
 # According to me, Histogram was more powerful,it gives me freedom of selecting how the histogram will look, 
-# in terms of the grouping of the data
+# in terms of the grouping of the data.

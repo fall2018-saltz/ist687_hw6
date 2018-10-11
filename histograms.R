@@ -1,4 +1,5 @@
 
+#setting up the ggplot package
 #install.packages("ggplot2")
 library("ggplot2")
 df <- final_data

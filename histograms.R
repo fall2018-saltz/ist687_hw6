@@ -7,7 +7,7 @@ df <- final_data
 #Histogram for population
 histpop<- 
 ggplot(df,aes(x=population))+
-    geom_histogram(color= "blue",fill="white",bins="FD")
+    geom_histogram(color= "blue",fill="white",bins=8)
 
 #Histogram for MurderRate 
 histMurderRate <-

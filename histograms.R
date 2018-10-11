@@ -25,5 +25,6 @@ ggplot(df,aes(x=UrbanPop))+
     geom_histogram(color='blue',fill='white',bins=8)
     
 #ggplot function forms an object with dataframe and variables 
-#the second line, geom_histogram plots the histogram with colour of edge, fill and,
+#The second line, geom_histogram plots the histogram with colour of edge, fill and,
 #number of bins are specified along with it.
+#To make histogram right I adjusted the bin size of the histogram the rounded up value of the square root of observations

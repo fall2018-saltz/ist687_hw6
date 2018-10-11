@@ -15,3 +15,5 @@ ggplot(df,aes(x=factor(0),y=population))+
 
 #ggplot creates the object, here x variable is set to 0 as it is required
 #geom_boxplot plots the box plot. 
+
+# histogram vs boxplot

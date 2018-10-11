@@ -6,3 +6,4 @@ library(ggplot2)
 #accordingly arguments of aes are adjusted.
 scatplot <- ggplot(df,aes(x=population,y=percentOver18,size=Murder,col=Murder))+
     geom_point()+
+    ggtitle('scatter plot')

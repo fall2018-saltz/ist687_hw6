@@ -1,4 +1,5 @@
 
+#function created in HW3 
 readStates<- function(states)
 {
     
